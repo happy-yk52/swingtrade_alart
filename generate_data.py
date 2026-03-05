@@ -236,7 +236,7 @@ def process_stock(item: dict) -> dict:
 
     try:
         ticker = yf.Ticker(code)
-        df = ticker.history(period="6mo")
+        df = ticker.history(period="1y")
 
         if df.empty or len(df) < 30:
             print(f"    ⚠ データ不足: {len(df)}行")
