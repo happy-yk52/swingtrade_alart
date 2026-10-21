@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-10-20 21:36:03",
-  "updated_at_iso": "2026-10-20T21:36:03.698859+09:00",
+  "updated_at": "2026-10-21 21:47:52",
+  "updated_at_iso": "2026-10-21T21:47:52.318977+09:00",
   "total_stocks": 20,
   "errors": 0,
   "stocks": [
     {
-      "code": "5401.T",
-      "name": "日本製鉄",
-      "sector": "素材",
-      "theme": "粗鋼国内首位。USスチール買収。高配当・PBR割安",
-      "risk": "中",
+      "code": "6861.T",
+      "name": "キーエンス",
+      "sector": "テクノロジー",
+      "theme": "FA(工場自動化)センサー最大手。高収益体質",
+      "risk": "低",
       "error": false,
-      "date": "2026-10-20",
-      "close": 663.5,
-      "open": 656.0,
-      "change": 12.6,
-      "change_pct": 1.94,
-      "ma5": 649.7,
-      "ma25": 657.4,
-      "ma75": 635.9,
-      "rsi": 54.8,
-      "macd": -3.4,
-      "macd_signal": -4.3,
-      "bb_upper": 685.8,
-      "bb_lower": 621.5,
-      "vol_ratio": 1.57,
+      "date": "2026-10-21",
+      "close": 80860.0,
+      "open": 81530.0,
+      "change": -50.0,
+      "change_pct": -0.06,
+      "ma5": 80582.0,
+      "ma25": 79207.2,
+      "ma75": 79147.9,
+      "rsi": 54.2,
+      "macd": 497.9,
+      "macd_signal": 407.6,
+      "bb_upper": 82787.0,
+      "bb_lower": 77379.0,
+      "vol_ratio": 1.04,
       "signals": {
         "ma": {
-          "score": 0,
-          "label": "中立",
-          "icon": "→",
-          "type": "neutral"
+          "score": 2,
+          "label": "パーフェクトオーダー",
+          "icon": "📈",
+          "type": "buy"
         },
         "rsi": {
           "score": 2,
-          "label": "RSI 54.8 押し目",
+          "label": "RSI 54.2 押し目",
           "icon": "🎯",
           "type": "buy"
         },
         "macd": {
-          "score": 2,
-          "label": "GCクロス",
-          "icon": "⚡",
+          "score": 1,
+          "label": "MACD強気",
+          "icon": "🔺",
           "type": "buy"
         },
         "bb": {
@@ -51,13 +51,13 @@
           "type": "buy"
         },
         "vol": {
-          "score": 2,
-          "label": "出来高1.6倍↑",
-          "icon": "🔊",
-          "type": "buy"
+          "score": 0,
+          "label": "1.0倍",
+          "icon": "📊",
+          "type": "neutral"
         }
       },
-      "total_score": 7,
+      "total_score": 6,
       "overall": {
         "label": "強い買い",
         "color": "#00e896",
@@ -66,7 +66,7 @@
       "checks": [
         {
           "label": "MA上向き＋株価がMA上",
-          "ok": false
+          "ok": true
         },
         {
           "label": "日足押し目 RSI 40-60圏",
@@ -74,7 +74,7 @@
         },
         {
           "label": "直近陽線 or 5MA反発確認",
-          "ok": true
+          "ok": false
         },
         {
           "label": "出来高20日平均以上",
@@ -83,37 +83,37 @@
       ]
     },
     {
-      "code": "1928.T",
-      "name": "積水ハウス",
-      "sector": "建設",
-      "theme": "住宅大手。賃上げ・インフレ環境で内需回復期待",
+      "code": "7203.T",
+      "name": "トヨタ自動車",
+      "sector": "自動車",
+      "theme": "世界首位。来期2ケタ増益予想。自動運転投資",
       "risk": "低",
       "error": false,
-      "date": "2026-10-20",
-      "close": 3423.0,
-      "open": 3427.0,
-      "change": -5.0,
-      "change_pct": -0.15,
-      "ma5": 3402.0,
-      "ma25": 3360.3,
-      "ma75": 3407.8,
-      "rsi": 59.4,
-      "macd": 6.3,
-      "macd_signal": -6.2,
-      "bb_upper": 3430.4,
-      "bb_lower": 3291.6,
-      "vol_ratio": 0.85,
+      "date": "2026-10-21",
+      "close": 3094.0,
+      "open": 3149.0,
+      "change": -8.0,
+      "change_pct": -0.26,
+      "ma5": 3084.2,
+      "ma25": 2967.2,
+      "ma75": 2947.0,
+      "rsi": 64.1,
+      "macd": 32.4,
+      "macd_signal": 9.6,
+      "bb_upper": 3120.7,
+      "bb_lower": 2809.8,
+      "vol_ratio": 0.77,
       "signals": {
         "ma": {
-          "score": 1,
-          "label": "MA上昇中",
-          "icon": "↗",
+          "score": 2,
+          "label": "パーフェクトオーダー",
+          "icon": "📈",
           "type": "buy"
         },
         "rsi": {
-          "score": 2,
-          "label": "RSI 59.4 押し目",
-          "icon": "🎯",
+          "score": 1,
+          "label": "RSI 64.1",
+          "icon": "💪",
           "type": "buy"
         },
         "macd": {
@@ -148,84 +148,6 @@
         },
         {
           "label": "日足押し目 RSI 40-60圏",
-          "ok": true
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": false
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": false
-        }
-      ]
-    },
-    {
-      "code": "8766.T",
-      "name": "東京海上HD",
-      "sector": "金融",
-      "theme": "損保最大手。保険料値上げ＋金利上昇のダブルメリット",
-      "risk": "低",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 544.3,
-      "open": 553.3,
-      "change": -10.6,
-      "change_pct": -1.91,
-      "ma5": 545.8,
-      "ma25": 483.8,
-      "ma75": 426.5,
-      "rsi": 69.2,
-      "macd": 33.9,
-      "macd_signal": 32.0,
-      "bb_upper": 602.4,
-      "bb_lower": 400.4,
-      "vol_ratio": 0.63,
-      "signals": {
-        "ma": {
-          "score": 2,
-          "label": "パーフェクトオーダー",
-          "icon": "📈",
-          "type": "buy"
-        },
-        "rsi": {
-          "score": 1,
-          "label": "RSI 69.2",
-          "icon": "💪",
-          "type": "buy"
-        },
-        "macd": {
-          "score": 1,
-          "label": "MACD強気",
-          "icon": "🔺",
-          "type": "buy"
-        },
-        "bb": {
-          "score": 1,
-          "label": "上半分推移",
-          "icon": "📊",
-          "type": "buy"
-        },
-        "vol": {
-          "score": 0,
-          "label": "0.6倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": 5,
-      "overall": {
-        "label": "強い買い",
-        "color": "#00e896",
-        "icon": "🟢🟢"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": true
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
           "ok": false
         },
         {
@@ -239,26 +161,26 @@
       ]
     },
     {
-      "code": "6861.T",
-      "name": "キーエンス",
-      "sector": "テクノロジー",
-      "theme": "FA(工場自動化)センサー最大手。高収益体質",
+      "code": "1928.T",
+      "name": "積水ハウス",
+      "sector": "建設",
+      "theme": "住宅大手。賃上げ・インフレ環境で内需回復期待",
       "risk": "低",
       "error": false,
-      "date": "2026-10-20",
-      "close": 80910.0,
-      "open": 80670.0,
-      "change": -500.0,
-      "change_pct": -0.61,
-      "ma5": 80476.0,
-      "ma25": 79021.7,
-      "ma75": 79146.7,
-      "rsi": 54.5,
-      "macd": 493.5,
-      "macd_signal": 385.0,
-      "bb_upper": 83028.9,
-      "bb_lower": 76661.1,
-      "vol_ratio": 0.88,
+      "date": "2026-10-21",
+      "close": 3431.0,
+      "open": 3463.0,
+      "change": 8.0,
+      "change_pct": 0.23,
+      "ma5": 3413.2,
+      "ma25": 3362.6,
+      "ma75": 3409.3,
+      "rsi": 60.6,
+      "macd": 9.9,
+      "macd_signal": -2.9,
+      "bb_upper": 3436.1,
+      "bb_lower": 3288.7,
+      "vol_ratio": 1.08,
       "signals": {
         "ma": {
           "score": 1,
@@ -267,86 +189,8 @@
           "type": "buy"
         },
         "rsi": {
-          "score": 2,
-          "label": "RSI 54.5 押し目",
-          "icon": "🎯",
-          "type": "buy"
-        },
-        "macd": {
           "score": 1,
-          "label": "MACD強気",
-          "icon": "🔺",
-          "type": "buy"
-        },
-        "bb": {
-          "score": 1,
-          "label": "上半分推移",
-          "icon": "📊",
-          "type": "buy"
-        },
-        "vol": {
-          "score": 0,
-          "label": "0.9倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": 5,
-      "overall": {
-        "label": "強い買い",
-        "color": "#00e896",
-        "icon": "🟢🟢"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": true
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
-          "ok": true
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": true
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": false
-        }
-      ]
-    },
-    {
-      "code": "7203.T",
-      "name": "トヨタ自動車",
-      "sector": "自動車",
-      "theme": "世界首位。来期2ケタ増益予想。自動運転投資",
-      "risk": "低",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 3102.0,
-      "open": 3087.0,
-      "change": 0.0,
-      "change_pct": 0.0,
-      "ma5": 3067.6,
-      "ma25": 2961.2,
-      "ma75": 2941.5,
-      "rsi": 65.4,
-      "macd": 27.9,
-      "macd_signal": 4.0,
-      "bb_upper": 3103.9,
-      "bb_lower": 2815.6,
-      "vol_ratio": 0.62,
-      "signals": {
-        "ma": {
-          "score": 2,
-          "label": "パーフェクトオーダー",
-          "icon": "📈",
-          "type": "buy"
-        },
-        "rsi": {
-          "score": 1,
-          "label": "RSI 65.4",
+          "label": "RSI 60.6",
           "icon": "💪",
           "type": "buy"
         },
@@ -363,10 +207,10 @@
           "type": "buy"
         },
         "vol": {
-          "score": -1,
-          "label": "出来高細い",
-          "icon": "📉",
-          "type": "warn"
+          "score": 0,
+          "label": "1.1倍",
+          "icon": "📊",
+          "type": "neutral"
         }
       },
       "total_score": 5,
@@ -386,11 +230,11 @@
         },
         {
           "label": "直近陽線 or 5MA反発確認",
-          "ok": true
+          "ok": false
         },
         {
           "label": "出来高20日平均以上",
-          "ok": false
+          "ok": true
         }
       ]
     },
@@ -401,20 +245,20 @@
       "theme": "国内最大の石油・天然ガス開発。高配当",
       "risk": "中",
       "error": false,
-      "date": "2026-10-20",
-      "close": 3823.0,
-      "open": 3807.0,
-      "change": 17.0,
-      "change_pct": 0.45,
-      "ma5": 3737.8,
-      "ma25": 3778.7,
-      "ma75": 3683.7,
-      "rsi": 54.6,
-      "macd": -19.6,
-      "macd_signal": -31.7,
-      "bb_upper": 3928.1,
-      "bb_lower": 3540.3,
-      "vol_ratio": 0.99,
+      "date": "2026-10-21",
+      "close": 3800.0,
+      "open": 3771.0,
+      "change": -23.0,
+      "change_pct": -0.6,
+      "ma5": 3747.6,
+      "ma25": 3775.6,
+      "ma75": 3690.8,
+      "rsi": 53.0,
+      "macd": -12.8,
+      "macd_signal": -27.9,
+      "bb_upper": 3903.0,
+      "bb_lower": 3552.5,
+      "vol_ratio": 0.73,
       "signals": {
         "ma": {
           "score": 0,
@@ -424,7 +268,7 @@
         },
         "rsi": {
           "score": 2,
-          "label": "RSI 54.6 押し目",
+          "label": "RSI 53.0 押し目",
           "icon": "🎯",
           "type": "buy"
         },
@@ -442,7 +286,7 @@
         },
         "vol": {
           "score": 0,
-          "label": "1.0倍",
+          "label": "0.7倍",
           "icon": "📊",
           "type": "neutral"
         }
@@ -473,26 +317,182 @@
       ]
     },
     {
-      "code": "7011.T",
-      "name": "三菱重工業",
-      "sector": "防衛・造船",
-      "theme": "防衛最大手。防衛費GDP比2%目標で長期追い風",
+      "code": "5401.T",
+      "name": "日本製鉄",
+      "sector": "素材",
+      "theme": "粗鋼国内首位。USスチール買収。高配当・PBR割安",
+      "risk": "中",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 663.1,
+      "open": 666.2,
+      "change": -0.4,
+      "change_pct": -0.06,
+      "ma5": 652.4,
+      "ma25": 656.7,
+      "ma75": 637.7,
+      "rsi": 54.6,
+      "macd": -2.0,
+      "macd_signal": -3.8,
+      "bb_upper": 680.1,
+      "bb_lower": 624.4,
+      "vol_ratio": 0.8,
+      "signals": {
+        "ma": {
+          "score": 0,
+          "label": "中立",
+          "icon": "→",
+          "type": "neutral"
+        },
+        "rsi": {
+          "score": 2,
+          "label": "RSI 54.6 押し目",
+          "icon": "🎯",
+          "type": "buy"
+        },
+        "macd": {
+          "score": 1,
+          "label": "MACD強気",
+          "icon": "🔺",
+          "type": "buy"
+        },
+        "bb": {
+          "score": 1,
+          "label": "上半分推移",
+          "icon": "📊",
+          "type": "buy"
+        },
+        "vol": {
+          "score": 0,
+          "label": "0.8倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": 4,
+      "overall": {
+        "label": "買い検討",
+        "color": "#00c97a",
+        "icon": "🟢"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": false
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": true
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
+          "ok": false
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "code": "8766.T",
+      "name": "東京海上HD",
+      "sector": "金融",
+      "theme": "損保最大手。保険料値上げ＋金利上昇のダブルメリット",
       "risk": "低",
       "error": false,
-      "date": "2026-10-20",
-      "close": 3685.0,
-      "open": 3727.0,
-      "change": -96.0,
-      "change_pct": -2.54,
-      "ma5": 3718.0,
-      "ma25": 3775.3,
-      "ma75": 3855.4,
-      "rsi": 44.5,
-      "macd": -36.0,
-      "macd_signal": -33.1,
-      "bb_upper": 3957.6,
-      "bb_lower": 3624.8,
-      "vol_ratio": 0.81,
+      "date": "2026-10-21",
+      "close": 558.6,
+      "open": 556.9,
+      "change": 14.3,
+      "change_pct": 2.63,
+      "ma5": 551.7,
+      "ma25": 490.1,
+      "ma75": 429.0,
+      "rsi": 72.2,
+      "macd": 33.9,
+      "macd_signal": 32.4,
+      "bb_upper": 605.9,
+      "bb_lower": 410.1,
+      "vol_ratio": 0.72,
+      "signals": {
+        "ma": {
+          "score": 2,
+          "label": "パーフェクトオーダー",
+          "icon": "📈",
+          "type": "buy"
+        },
+        "rsi": {
+          "score": -1,
+          "label": "RSI 72.2 過熱",
+          "icon": "🔥",
+          "type": "warn"
+        },
+        "macd": {
+          "score": 1,
+          "label": "MACD強気",
+          "icon": "🔺",
+          "type": "buy"
+        },
+        "bb": {
+          "score": 1,
+          "label": "上半分推移",
+          "icon": "📊",
+          "type": "buy"
+        },
+        "vol": {
+          "score": 0,
+          "label": "0.7倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": 3,
+      "overall": {
+        "label": "買い検討",
+        "color": "#00c97a",
+        "icon": "🟢"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": true
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": false
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
+          "ok": true
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "code": "7012.T",
+      "name": "川崎重工業",
+      "sector": "防衛・造船",
+      "theme": "防衛装備・造船・航空エンジン。水素関連も",
+      "risk": "中",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 2242.0,
+      "open": 2250.0,
+      "change": 15.5,
+      "change_pct": 0.7,
+      "ma5": 2236.9,
+      "ma25": 2322.1,
+      "ma75": 2553.2,
+      "rsi": 40.0,
+      "macd": -59.8,
+      "macd_signal": -61.5,
+      "bb_upper": 2446.5,
+      "bb_lower": 2183.6,
+      "vol_ratio": 0.75,
       "signals": {
         "ma": {
           "score": -1,
@@ -502,7 +502,319 @@
         },
         "rsi": {
           "score": 2,
-          "label": "RSI 44.5 押し目",
+          "label": "RSI 40.0 押し目",
+          "icon": "🎯",
+          "type": "buy"
+        },
+        "macd": {
+          "score": 1,
+          "label": "MACD強気",
+          "icon": "🔺",
+          "type": "buy"
+        },
+        "bb": {
+          "score": -1,
+          "label": "下半分",
+          "icon": "📉",
+          "type": "sell"
+        },
+        "vol": {
+          "score": 0,
+          "label": "0.7倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": 1,
+      "overall": {
+        "label": "やや強気",
+        "color": "#44aadd",
+        "icon": "🔵"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": false
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": true
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
+          "ok": false
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "code": "6857.T",
+      "name": "アドバンテスト",
+      "sector": "AI・半導体",
+      "theme": "半導体検査装置世界首位。AI半導体需要の恩恵直撃",
+      "risk": "中",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 34440.0,
+      "open": 35270.0,
+      "change": 570.0,
+      "change_pct": 1.68,
+      "ma5": 34326.0,
+      "ma25": 35581.6,
+      "ma75": 33170.6,
+      "rsi": 44.8,
+      "macd": 357.4,
+      "macd_signal": 1085.7,
+      "bb_upper": 43525.6,
+      "bb_lower": 30038.4,
+      "vol_ratio": 1.08,
+      "signals": {
+        "ma": {
+          "score": -1,
+          "label": "MA25割れ",
+          "icon": "↘",
+          "type": "sell"
+        },
+        "rsi": {
+          "score": 2,
+          "label": "RSI 44.8 押し目",
+          "icon": "🎯",
+          "type": "buy"
+        },
+        "macd": {
+          "score": -1,
+          "label": "MACD弱気",
+          "icon": "▽",
+          "type": "sell"
+        },
+        "bb": {
+          "score": -1,
+          "label": "下半分",
+          "icon": "📉",
+          "type": "sell"
+        },
+        "vol": {
+          "score": 0,
+          "label": "1.1倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": -1,
+      "overall": {
+        "label": "中立・様子見",
+        "color": "#8899aa",
+        "icon": "⚪"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": false
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": true
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
+          "ok": false
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "code": "6146.T",
+      "name": "ディスコ",
+      "sector": "AI・半導体",
+      "theme": "半導体切断・研磨装置で世界シェア首位級",
+      "risk": "中",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 53570.0,
+      "open": 54400.0,
+      "change": 940.0,
+      "change_pct": 1.79,
+      "ma5": 53318.0,
+      "ma25": 56024.8,
+      "ma75": 60770.6,
+      "rsi": 41.5,
+      "macd": -843.6,
+      "macd_signal": -130.3,
+      "bb_upper": 65269.9,
+      "bb_lower": 49232.7,
+      "vol_ratio": 0.97,
+      "signals": {
+        "ma": {
+          "score": -1,
+          "label": "MA25割れ",
+          "icon": "↘",
+          "type": "sell"
+        },
+        "rsi": {
+          "score": 2,
+          "label": "RSI 41.5 押し目",
+          "icon": "🎯",
+          "type": "buy"
+        },
+        "macd": {
+          "score": -1,
+          "label": "MACD弱気",
+          "icon": "▽",
+          "type": "sell"
+        },
+        "bb": {
+          "score": -1,
+          "label": "下半分",
+          "icon": "📉",
+          "type": "sell"
+        },
+        "vol": {
+          "score": 0,
+          "label": "1.0倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": -1,
+      "overall": {
+        "label": "中立・様子見",
+        "color": "#8899aa",
+        "icon": "⚪"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": false
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": true
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
+          "ok": false
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "code": "7011.T",
+      "name": "三菱重工業",
+      "sector": "防衛・造船",
+      "theme": "防衛最大手。防衛費GDP比2%目標で長期追い風",
+      "risk": "低",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 3721.0,
+      "open": 3710.0,
+      "change": 36.0,
+      "change_pct": 0.98,
+      "ma5": 3716.8,
+      "ma25": 3775.8,
+      "ma75": 3856.3,
+      "rsi": 46.7,
+      "macd": -35.1,
+      "macd_signal": -33.5,
+      "bb_upper": 3948.2,
+      "bb_lower": 3619.0,
+      "vol_ratio": 0.88,
+      "signals": {
+        "ma": {
+          "score": -1,
+          "label": "MA25割れ",
+          "icon": "↘",
+          "type": "sell"
+        },
+        "rsi": {
+          "score": 2,
+          "label": "RSI 46.7 押し目",
+          "icon": "🎯",
+          "type": "buy"
+        },
+        "macd": {
+          "score": -1,
+          "label": "MACD弱気",
+          "icon": "▽",
+          "type": "sell"
+        },
+        "bb": {
+          "score": -1,
+          "label": "下半分",
+          "icon": "📉",
+          "type": "sell"
+        },
+        "vol": {
+          "score": 0,
+          "label": "0.9倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": -1,
+      "overall": {
+        "label": "中立・様子見",
+        "color": "#8899aa",
+        "icon": "⚪"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": false
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": true
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
+          "ok": true
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "code": "7013.T",
+      "name": "IHI",
+      "sector": "防衛・造船",
+      "theme": "航空エンジン、防衛、宇宙。エネルギー転換にも注目",
+      "risk": "中",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 2505.0,
+      "open": 2481.0,
+      "change": 32.5,
+      "change_pct": 1.31,
+      "ma5": 2497.7,
+      "ma25": 2665.5,
+      "ma75": 2738.3,
+      "rsi": 41.5,
+      "macd": -62.5,
+      "macd_signal": -46.1,
+      "bb_upper": 2875.6,
+      "bb_lower": 2415.4,
+      "vol_ratio": 0.84,
+      "signals": {
+        "ma": {
+          "score": -1,
+          "label": "MA25割れ",
+          "icon": "↘",
+          "type": "sell"
+        },
+        "rsi": {
+          "score": 2,
+          "label": "RSI 41.5 押し目",
           "icon": "🎯",
           "type": "buy"
         },
@@ -542,6 +854,240 @@
         },
         {
           "label": "直近陽線 or 5MA反発確認",
+          "ok": true
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "code": "8306.T",
+      "name": "三菱UFJ FG",
+      "sector": "金融",
+      "theme": "メガバンク最大手。金利上昇で利ざや拡大",
+      "risk": "低",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 3431.0,
+      "open": 3388.0,
+      "change": 80.0,
+      "change_pct": 2.39,
+      "ma5": 3429.6,
+      "ma25": 3561.4,
+      "ma75": 3542.8,
+      "rsi": 44.0,
+      "macd": -45.3,
+      "macd_signal": -25.3,
+      "bb_upper": 3733.9,
+      "bb_lower": 3357.8,
+      "vol_ratio": 0.86,
+      "signals": {
+        "ma": {
+          "score": -1,
+          "label": "MA25割れ",
+          "icon": "↘",
+          "type": "sell"
+        },
+        "rsi": {
+          "score": 2,
+          "label": "RSI 44.0 押し目",
+          "icon": "🎯",
+          "type": "buy"
+        },
+        "macd": {
+          "score": -1,
+          "label": "MACD弱気",
+          "icon": "▽",
+          "type": "sell"
+        },
+        "bb": {
+          "score": -1,
+          "label": "下半分",
+          "icon": "📉",
+          "type": "sell"
+        },
+        "vol": {
+          "score": 0,
+          "label": "0.9倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": -1,
+      "overall": {
+        "label": "中立・様子見",
+        "color": "#8899aa",
+        "icon": "⚪"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": false
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": true
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
+          "ok": true
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "code": "8316.T",
+      "name": "三井住友FG",
+      "sector": "金融",
+      "theme": "メガバンク。累進配当方針で株主還元強化",
+      "risk": "低",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 3221.0,
+      "open": 3181.0,
+      "change": 73.0,
+      "change_pct": 2.32,
+      "ma5": 3228.2,
+      "ma25": 3327.8,
+      "ma75": 3330.9,
+      "rsi": 44.4,
+      "macd": -33.9,
+      "macd_signal": -16.4,
+      "bb_upper": 3474.0,
+      "bb_lower": 3164.9,
+      "vol_ratio": 0.99,
+      "signals": {
+        "ma": {
+          "score": -1,
+          "label": "MA25割れ",
+          "icon": "↘",
+          "type": "sell"
+        },
+        "rsi": {
+          "score": 2,
+          "label": "RSI 44.4 押し目",
+          "icon": "🎯",
+          "type": "buy"
+        },
+        "macd": {
+          "score": -1,
+          "label": "MACD弱気",
+          "icon": "▽",
+          "type": "sell"
+        },
+        "bb": {
+          "score": -1,
+          "label": "下半分",
+          "icon": "📉",
+          "type": "sell"
+        },
+        "vol": {
+          "score": 0,
+          "label": "1.0倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": -1,
+      "overall": {
+        "label": "中立・様子見",
+        "color": "#8899aa",
+        "icon": "⚪"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": false
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": true
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
+          "ok": false
+        },
+        {
+          "label": "出来高20日平均以上",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "code": "1801.T",
+      "name": "大成建設",
+      "sector": "建設",
+      "theme": "スーパーゼネコン。防災・国土強靭化の恩恵",
+      "risk": "低",
+      "error": false,
+      "date": "2026-10-21",
+      "close": 11430.0,
+      "open": 11495.0,
+      "change": 100.0,
+      "change_pct": 0.88,
+      "ma5": 11307.0,
+      "ma25": 11949.8,
+      "ma75": 12702.9,
+      "rsi": 40.3,
+      "macd": -304.9,
+      "macd_signal": -268.8,
+      "bb_upper": 12679.5,
+      "bb_lower": 11046.2,
+      "vol_ratio": 0.9,
+      "signals": {
+        "ma": {
+          "score": -1,
+          "label": "MA25割れ",
+          "icon": "↘",
+          "type": "sell"
+        },
+        "rsi": {
+          "score": 2,
+          "label": "RSI 40.3 押し目",
+          "icon": "🎯",
+          "type": "buy"
+        },
+        "macd": {
+          "score": -1,
+          "label": "MACD弱気",
+          "icon": "▽",
+          "type": "sell"
+        },
+        "bb": {
+          "score": -1,
+          "label": "下半分",
+          "icon": "📉",
+          "type": "sell"
+        },
+        "vol": {
+          "score": 0,
+          "label": "0.9倍",
+          "icon": "📊",
+          "type": "neutral"
+        }
+      },
+      "total_score": -1,
+      "overall": {
+        "label": "中立・様子見",
+        "color": "#8899aa",
+        "icon": "⚪"
+      },
+      "checks": [
+        {
+          "label": "MA上向き＋株価がMA上",
+          "ok": false
+        },
+        {
+          "label": "日足押し目 RSI 40-60圏",
+          "ok": true
+        },
+        {
+          "label": "直近陽線 or 5MA反発確認",
           "ok": false
         },
         {
@@ -557,20 +1103,20 @@
       "theme": "データセンター電力需要増。原発再稼働期待",
       "risk": "高",
       "error": false,
-      "date": "2026-10-20",
-      "close": 504.4,
-      "open": 508.5,
-      "change": -5.9,
-      "change_pct": -1.16,
-      "ma5": 506.2,
-      "ma25": 524.7,
-      "ma75": 519.8,
-      "rsi": 41.9,
-      "macd": -8.0,
-      "macd_signal": -6.2,
-      "bb_upper": 548.3,
-      "bb_lower": 493.5,
-      "vol_ratio": 0.73,
+      "date": "2026-10-21",
+      "close": 509.9,
+      "open": 508.9,
+      "change": 5.5,
+      "change_pct": 1.09,
+      "ma5": 504.6,
+      "ma25": 523.2,
+      "ma75": 520.5,
+      "rsi": 44.7,
+      "macd": -7.7,
+      "macd_signal": -6.5,
+      "bb_upper": 541.0,
+      "bb_lower": 496.1,
+      "vol_ratio": 0.71,
       "signals": {
         "ma": {
           "score": -1,
@@ -580,7 +1126,7 @@
         },
         "rsi": {
           "score": 2,
-          "label": "RSI 41.9 押し目",
+          "label": "RSI 44.7 押し目",
           "icon": "🎯",
           "type": "buy"
         },
@@ -620,7 +1166,7 @@
         },
         {
           "label": "直近陽線 or 5MA反発確認",
-          "ok": false
+          "ok": true
         },
         {
           "label": "出来高20日平均以上",
@@ -635,20 +1181,20 @@
       "theme": "半導体ペリクル等の機能性材料。PBR1倍割れ修正期待",
       "risk": "中",
       "error": false,
-      "date": "2026-10-20",
-      "close": 2092.0,
-      "open": 2100.0,
-      "change": -22.5,
-      "change_pct": -1.06,
-      "ma5": 2100.4,
-      "ma25": 2109.0,
-      "ma75": 2119.1,
-      "rsi": 47.9,
-      "macd": -7.4,
-      "macd_signal": -5.6,
-      "bb_upper": 2197.3,
-      "bb_lower": 2026.9,
-      "vol_ratio": 0.54,
+      "date": "2026-10-21",
+      "close": 2087.5,
+      "open": 2112.0,
+      "change": -4.5,
+      "change_pct": -0.22,
+      "ma5": 2091.1,
+      "ma25": 2108.3,
+      "ma75": 2119.0,
+      "rsi": 47.5,
+      "macd": -8.2,
+      "macd_signal": -6.1,
+      "bb_upper": 2185.1,
+      "bb_lower": 2029.0,
+      "vol_ratio": 0.51,
       "signals": {
         "ma": {
           "score": -1,
@@ -658,7 +1204,7 @@
         },
         "rsi": {
           "score": 2,
-          "label": "RSI 47.9 押し目",
+          "label": "RSI 47.5 押し目",
           "icon": "🎯",
           "type": "buy"
         },
@@ -707,38 +1253,38 @@
       ]
     },
     {
-      "code": "6857.T",
-      "name": "アドバンテスト",
+      "code": "8035.T",
+      "name": "東京エレクトロン",
       "sector": "AI・半導体",
-      "theme": "半導体検査装置世界首位。AI半導体需要の恩恵直撃",
+      "theme": "半導体製造装置で国内最大手。AI投資拡大が追い風",
       "risk": "中",
       "error": false,
-      "date": "2026-10-20",
-      "close": 33870.0,
-      "open": 34450.0,
-      "change": -580.0,
-      "change_pct": -1.68,
-      "ma5": 35514.0,
-      "ma25": 35560.8,
-      "ma75": 33142.6,
-      "rsi": 42.6,
-      "macd": 576.0,
-      "macd_signal": 1267.8,
-      "bb_upper": 43835.8,
-      "bb_lower": 29308.2,
-      "vol_ratio": 1.24,
+      "date": "2026-10-21",
+      "close": 10160.0,
+      "open": 10395.0,
+      "change": 75.0,
+      "change_pct": 0.74,
+      "ma5": 10318.0,
+      "ma25": 11078.5,
+      "ma75": 11490.2,
+      "rsi": 39.6,
+      "macd": -142.0,
+      "macd_signal": 98.9,
+      "bb_upper": 13258.3,
+      "bb_lower": 9498.2,
+      "vol_ratio": 0.71,
       "signals": {
         "ma": {
-          "score": -2,
-          "label": "DC発生",
-          "icon": "💀",
+          "score": -1,
+          "label": "MA25割れ",
+          "icon": "↘",
           "type": "sell"
         },
         "rsi": {
-          "score": 2,
-          "label": "RSI 42.6 押し目",
-          "icon": "🎯",
-          "type": "buy"
+          "score": 0,
+          "label": "RSI 39.6",
+          "icon": "〜",
+          "type": "neutral"
         },
         "macd": {
           "score": -1,
@@ -754,90 +1300,12 @@
         },
         "vol": {
           "score": 0,
-          "label": "1.2倍",
+          "label": "0.7倍",
           "icon": "📊",
           "type": "neutral"
         }
       },
-      "total_score": -2,
-      "overall": {
-        "label": "やや弱気",
-        "color": "#ff9944",
-        "icon": "🟡"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": false
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
-          "ok": true
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": false
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": true
-        }
-      ]
-    },
-    {
-      "code": "7012.T",
-      "name": "川崎重工業",
-      "sector": "防衛・造船",
-      "theme": "防衛装備・造船・航空エンジン。水素関連も",
-      "risk": "中",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 2226.5,
-      "open": 2260.0,
-      "change": -62.0,
-      "change_pct": -2.71,
-      "ma5": 2240.1,
-      "ma25": 2325.6,
-      "ma75": 2561.9,
-      "rsi": 38.2,
-      "macd": -61.3,
-      "macd_signal": -61.9,
-      "bb_upper": 2455.0,
-      "bb_lower": 2191.0,
-      "vol_ratio": 0.83,
-      "signals": {
-        "ma": {
-          "score": -1,
-          "label": "MA25割れ",
-          "icon": "↘",
-          "type": "sell"
-        },
-        "rsi": {
-          "score": 0,
-          "label": "RSI 38.2",
-          "icon": "〜",
-          "type": "neutral"
-        },
-        "macd": {
-          "score": 1,
-          "label": "MACD強気",
-          "icon": "🔺",
-          "type": "buy"
-        },
-        "bb": {
-          "score": -2,
-          "label": "-2σ割れ",
-          "icon": "💥",
-          "type": "sell"
-        },
-        "vol": {
-          "score": 0,
-          "label": "0.8倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": -2,
+      "total_score": -3,
       "overall": {
         "label": "やや弱気",
         "color": "#ff9944",
@@ -869,30 +1337,30 @@
       "theme": "CNC・ロボット世界首位。フィジカルAI本命",
       "risk": "中",
       "error": false,
-      "date": "2026-10-20",
-      "close": 5788.0,
-      "open": 5923.0,
-      "change": -158.0,
-      "change_pct": -2.66,
-      "ma5": 5975.6,
-      "ma25": 5970.9,
-      "ma75": 6336.4,
-      "rsi": 41.1,
-      "macd": -22.6,
-      "macd_signal": -6.1,
-      "bb_upper": 6292.5,
-      "bb_lower": 5748.8,
-      "vol_ratio": 0.92,
+      "date": "2026-10-21",
+      "close": 5823.0,
+      "open": 5928.0,
+      "change": 35.0,
+      "change_pct": 0.6,
+      "ma5": 5890.2,
+      "ma25": 5972.0,
+      "ma75": 6315.9,
+      "rsi": 42.5,
+      "macd": -35.2,
+      "macd_signal": -11.9,
+      "bb_upper": 6289.4,
+      "bb_lower": 5754.8,
+      "vol_ratio": 0.78,
       "signals": {
         "ma": {
-          "score": -1,
-          "label": "MA25割れ",
-          "icon": "↘",
+          "score": -2,
+          "label": "DC発生",
+          "icon": "💀",
           "type": "sell"
         },
         "rsi": {
           "score": 2,
-          "label": "RSI 41.1 押し目",
+          "label": "RSI 42.5 押し目",
           "icon": "🎯",
           "type": "buy"
         },
@@ -910,12 +1378,12 @@
         },
         "vol": {
           "score": 0,
-          "label": "0.9倍",
+          "label": "0.8倍",
           "icon": "📊",
           "type": "neutral"
         }
       },
-      "total_score": -2,
+      "total_score": -3,
       "overall": {
         "label": "やや弱気",
         "color": "#ff9944",
@@ -941,260 +1409,26 @@
       ]
     },
     {
-      "code": "6146.T",
-      "name": "ディスコ",
-      "sector": "AI・半導体",
-      "theme": "半導体切断・研磨装置で世界シェア首位級",
-      "risk": "中",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 52630.0,
-      "open": 53480.0,
-      "change": -730.0,
-      "change_pct": -1.37,
-      "ma5": 54224.0,
-      "ma25": 56018.5,
-      "ma75": 61136.4,
-      "rsi": 38.7,
-      "macd": -674.8,
-      "macd_signal": 48.1,
-      "bb_upper": 65508.2,
-      "bb_lower": 48680.5,
-      "vol_ratio": 1.0,
-      "signals": {
-        "ma": {
-          "score": -1,
-          "label": "MA25割れ",
-          "icon": "↘",
-          "type": "sell"
-        },
-        "rsi": {
-          "score": 0,
-          "label": "RSI 38.7",
-          "icon": "〜",
-          "type": "neutral"
-        },
-        "macd": {
-          "score": -1,
-          "label": "MACD弱気",
-          "icon": "▽",
-          "type": "sell"
-        },
-        "bb": {
-          "score": -1,
-          "label": "下半分",
-          "icon": "📉",
-          "type": "sell"
-        },
-        "vol": {
-          "score": 0,
-          "label": "1.0倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": -3,
-      "overall": {
-        "label": "やや弱気",
-        "color": "#ff9944",
-        "icon": "🟡"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": false
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
-          "ok": false
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": false
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": false
-        }
-      ]
-    },
-    {
-      "code": "8035.T",
-      "name": "東京エレクトロン",
-      "sector": "AI・半導体",
-      "theme": "半導体製造装置で国内最大手。AI投資拡大が追い風",
-      "risk": "中",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 10085.0,
-      "open": 10410.0,
-      "change": -265.0,
-      "change_pct": -2.56,
-      "ma5": 10534.0,
-      "ma25": 11080.1,
-      "ma75": 11553.5,
-      "rsi": 38.7,
-      "macd": -74.5,
-      "macd_signal": 159.2,
-      "bb_upper": 13287.6,
-      "bb_lower": 9437.5,
-      "vol_ratio": 0.71,
-      "signals": {
-        "ma": {
-          "score": -1,
-          "label": "MA25割れ",
-          "icon": "↘",
-          "type": "sell"
-        },
-        "rsi": {
-          "score": 0,
-          "label": "RSI 38.7",
-          "icon": "〜",
-          "type": "neutral"
-        },
-        "macd": {
-          "score": -1,
-          "label": "MACD弱気",
-          "icon": "▽",
-          "type": "sell"
-        },
-        "bb": {
-          "score": -1,
-          "label": "下半分",
-          "icon": "📉",
-          "type": "sell"
-        },
-        "vol": {
-          "score": 0,
-          "label": "0.7倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": -3,
-      "overall": {
-        "label": "やや弱気",
-        "color": "#ff9944",
-        "icon": "🟡"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": false
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
-          "ok": false
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": false
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": false
-        }
-      ]
-    },
-    {
-      "code": "1801.T",
-      "name": "大成建設",
-      "sector": "建設",
-      "theme": "スーパーゼネコン。防災・国土強靭化の恩恵",
-      "risk": "低",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 11330.0,
-      "open": 11375.0,
-      "change": -145.0,
-      "change_pct": -1.26,
-      "ma5": 11325.0,
-      "ma25": 11988.7,
-      "ma75": 12737.5,
-      "rsi": 37.9,
-      "macd": -313.0,
-      "macd_signal": -259.8,
-      "bb_upper": 12759.3,
-      "bb_lower": 11076.9,
-      "vol_ratio": 0.72,
-      "signals": {
-        "ma": {
-          "score": -1,
-          "label": "MA25割れ",
-          "icon": "↘",
-          "type": "sell"
-        },
-        "rsi": {
-          "score": 0,
-          "label": "RSI 37.9",
-          "icon": "〜",
-          "type": "neutral"
-        },
-        "macd": {
-          "score": -1,
-          "label": "MACD弱気",
-          "icon": "▽",
-          "type": "sell"
-        },
-        "bb": {
-          "score": -1,
-          "label": "下半分",
-          "icon": "📉",
-          "type": "sell"
-        },
-        "vol": {
-          "score": 0,
-          "label": "0.7倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": -3,
-      "overall": {
-        "label": "やや弱気",
-        "color": "#ff9944",
-        "icon": "🟡"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": false
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
-          "ok": false
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": false
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": false
-        }
-      ]
-    },
-    {
       "code": "6506.T",
       "name": "安川電機",
       "sector": "AI・半導体",
       "theme": "産業用ロボット大手。フィジカルAI・エヌビディア連携",
       "risk": "中",
       "error": false,
-      "date": "2026-10-20",
-      "close": 4277.0,
-      "open": 4370.0,
-      "change": -96.0,
-      "change_pct": -2.2,
-      "ma5": 4402.8,
-      "ma25": 4551.8,
-      "ma75": 5099.4,
-      "rsi": 36.2,
-      "macd": -78.6,
-      "macd_signal": -40.3,
-      "bb_upper": 5064.8,
-      "bb_lower": 4145.9,
-      "vol_ratio": 0.83,
+      "date": "2026-10-21",
+      "close": 4204.0,
+      "open": 4277.0,
+      "change": -73.0,
+      "change_pct": -1.71,
+      "ma5": 4301.2,
+      "ma25": 4542.7,
+      "ma75": 5062.4,
+      "rsi": 34.2,
+      "macd": -99.7,
+      "macd_signal": -52.2,
+      "bb_upper": 5074.4,
+      "bb_lower": 4126.8,
+      "vol_ratio": 1.04,
       "signals": {
         "ma": {
           "score": -1,
@@ -1204,85 +1438,7 @@
         },
         "rsi": {
           "score": 0,
-          "label": "RSI 36.2",
-          "icon": "〜",
-          "type": "neutral"
-        },
-        "macd": {
-          "score": -1,
-          "label": "MACD弱気",
-          "icon": "▽",
-          "type": "sell"
-        },
-        "bb": {
-          "score": -2,
-          "label": "-2σ割れ",
-          "icon": "💥",
-          "type": "sell"
-        },
-        "vol": {
-          "score": 0,
-          "label": "0.8倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": -4,
-      "overall": {
-        "label": "売り検討",
-        "color": "#ff5533",
-        "icon": "🔴"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": false
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
-          "ok": false
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": false
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": false
-        }
-      ]
-    },
-    {
-      "code": "7013.T",
-      "name": "IHI",
-      "sector": "防衛・造船",
-      "theme": "航空エンジン、防衛、宇宙。エネルギー転換にも注目",
-      "risk": "中",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 2472.5,
-      "open": 2541.0,
-      "change": -106.0,
-      "change_pct": -4.11,
-      "ma5": 2504.1,
-      "ma25": 2671.4,
-      "ma75": 2740.9,
-      "rsi": 39.0,
-      "macd": -61.3,
-      "macd_signal": -42.0,
-      "bb_upper": 2895.9,
-      "bb_lower": 2427.8,
-      "vol_ratio": 0.99,
-      "signals": {
-        "ma": {
-          "score": -1,
-          "label": "MA25割れ",
-          "icon": "↘",
-          "type": "sell"
-        },
-        "rsi": {
-          "score": 0,
-          "label": "RSI 39.0",
+          "label": "RSI 34.2",
           "icon": "〜",
           "type": "neutral"
         },
@@ -1326,163 +1482,7 @@
         },
         {
           "label": "出来高20日平均以上",
-          "ok": false
-        }
-      ]
-    },
-    {
-      "code": "8306.T",
-      "name": "三菱UFJ FG",
-      "sector": "金融",
-      "theme": "メガバンク最大手。金利上昇で利ざや拡大",
-      "risk": "低",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 3351.0,
-      "open": 3435.0,
-      "change": -127.0,
-      "change_pct": -3.65,
-      "ma5": 3439.8,
-      "ma25": 3568.8,
-      "ma75": 3539.3,
-      "rsi": 38.5,
-      "macd": -43.5,
-      "macd_signal": -20.3,
-      "bb_upper": 3736.5,
-      "bb_lower": 3372.5,
-      "vol_ratio": 0.83,
-      "signals": {
-        "ma": {
-          "score": -1,
-          "label": "MA25割れ",
-          "icon": "↘",
-          "type": "sell"
-        },
-        "rsi": {
-          "score": 0,
-          "label": "RSI 38.5",
-          "icon": "〜",
-          "type": "neutral"
-        },
-        "macd": {
-          "score": -1,
-          "label": "MACD弱気",
-          "icon": "▽",
-          "type": "sell"
-        },
-        "bb": {
-          "score": -2,
-          "label": "-2σ割れ",
-          "icon": "💥",
-          "type": "sell"
-        },
-        "vol": {
-          "score": 0,
-          "label": "0.8倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": -4,
-      "overall": {
-        "label": "売り検討",
-        "color": "#ff5533",
-        "icon": "🔴"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": false
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
-          "ok": false
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": false
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": false
-        }
-      ]
-    },
-    {
-      "code": "8316.T",
-      "name": "三井住友FG",
-      "sector": "金融",
-      "theme": "メガバンク。累進配当方針で株主還元強化",
-      "risk": "低",
-      "error": false,
-      "date": "2026-10-20",
-      "close": 3148.0,
-      "open": 3220.0,
-      "change": -126.0,
-      "change_pct": -3.85,
-      "ma5": 3241.0,
-      "ma25": 3333.5,
-      "ma75": 3329.2,
-      "rsi": 39.1,
-      "macd": -31.3,
-      "macd_signal": -12.0,
-      "bb_upper": 3474.2,
-      "bb_lower": 3177.6,
-      "vol_ratio": 0.82,
-      "signals": {
-        "ma": {
-          "score": -1,
-          "label": "MA25割れ",
-          "icon": "↘",
-          "type": "sell"
-        },
-        "rsi": {
-          "score": 0,
-          "label": "RSI 39.1",
-          "icon": "〜",
-          "type": "neutral"
-        },
-        "macd": {
-          "score": -1,
-          "label": "MACD弱気",
-          "icon": "▽",
-          "type": "sell"
-        },
-        "bb": {
-          "score": -2,
-          "label": "-2σ割れ",
-          "icon": "💥",
-          "type": "sell"
-        },
-        "vol": {
-          "score": 0,
-          "label": "0.8倍",
-          "icon": "📊",
-          "type": "neutral"
-        }
-      },
-      "total_score": -4,
-      "overall": {
-        "label": "売り検討",
-        "color": "#ff5533",
-        "icon": "🔴"
-      },
-      "checks": [
-        {
-          "label": "MA上向き＋株価がMA上",
-          "ok": false
-        },
-        {
-          "label": "日足押し目 RSI 40-60圏",
-          "ok": false
-        },
-        {
-          "label": "直近陽線 or 5MA反発確認",
-          "ok": false
-        },
-        {
-          "label": "出来高20日平均以上",
-          "ok": false
+          "ok": true
         }
       ]
     },
@@ -1493,20 +1493,20 @@
       "theme": "AI投資の中核。ARM・ビジョンファンド",
       "risk": "高",
       "error": false,
-      "date": "2026-10-20",
-      "close": 4554.0,
-      "open": 4733.0,
-      "change": -291.0,
-      "change_pct": -6.01,
-      "ma5": 4909.2,
-      "ma25": 5967.2,
-      "ma75": 5738.4,
-      "rsi": 31.1,
-      "macd": -296.5,
-      "macd_signal": -94.8,
-      "bb_upper": 7147.0,
-      "bb_lower": 4608.8,
-      "vol_ratio": 0.86,
+      "date": "2026-10-21",
+      "close": 4622.0,
+      "open": 4694.0,
+      "change": 68.0,
+      "change_pct": 1.49,
+      "ma5": 4763.4,
+      "ma25": 5879.9,
+      "ma75": 5720.6,
+      "rsi": 32.7,
+      "macd": -334.9,
+      "macd_signal": -142.9,
+      "bb_upper": 7165.6,
+      "bb_lower": 4428.2,
+      "vol_ratio": 0.77,
       "signals": {
         "ma": {
           "score": -1,
@@ -1516,7 +1516,7 @@
         },
         "rsi": {
           "score": 0,
-          "label": "RSI 31.1",
+          "label": "RSI 32.7",
           "icon": "〜",
           "type": "neutral"
         },
@@ -1534,7 +1534,7 @@
         },
         "vol": {
           "score": 0,
-          "label": "0.9倍",
+          "label": "0.8倍",
           "icon": "📊",
           "type": "neutral"
         }
